@@ -1,0 +1,9 @@
+.env
+
+**/geckodriver.log
+
+**/env
+descargas*
+
+
+*.code-workspace

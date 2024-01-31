@@ -1,0 +1,5 @@
+redcapy===0.4.1
+python-dotenv===1.0.1
+PyCap[all]===2.6.0
+selenium===4.17.2
+rarfile===4.1
