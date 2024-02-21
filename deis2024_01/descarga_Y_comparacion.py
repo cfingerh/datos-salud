@@ -81,11 +81,16 @@ while paginas_faltantes:
     driver.find_element(By.CSS_SELECTOR, 'li[data-page="next"]>a').click()
     pagina += 1
 
+
+driver.quit()
 #Termino
 
 
 # El siguiente código descarga los archivos y los compara
-# descarga los archivos
+# INICIO
+    
+for data_json_descargada in datas_json_descargada:
+
 driver.find_element(By.XPATH, "//span[text()[contains(.,'CSV Identificación geográfica Censo 2017')]]").click()
 driver.find_element(By.XPATH, "//span[text()[contains(.,'CSV Viviendas Censo 2017')]]").click()
 driver.find_element(By.XPATH, "//span[text()[contains(.,'CSV Hogares Censo 2017')]]").click()

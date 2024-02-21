@@ -30,3 +30,16 @@ El cual tiene la información de todos los documentos en un formato
     }
 }
 ```
+
+## Scraping
+
+la url indicada arriba que trae un json con todos los datos tiene una especie de seguridad para evitar robots, por lo que se debe asegurar que el request se haga con headers reales que asemejen un navegador.
+
+# Proceso
+
+Se compara el listado de datos disponibles en la página del DEIS con la útlima información y se buscan nuevos archivos:
+
+- se revisa si hay un archivo nuevo.
+- se revisa que los archivos tengan el mismo nombre
+- **No** se está revisando si un archivo que existía ya no aparece
+

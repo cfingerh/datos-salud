@@ -5,5 +5,5 @@
 **/env
 descargas*
 
-
+*.json
 *.code-workspace

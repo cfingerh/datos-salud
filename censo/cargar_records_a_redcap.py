@@ -47,12 +47,12 @@ class Lectura:
         """actualiza todos los records de la api de redcap"""
         self.fetch_records()
 
-        # f = []
-        # layer = 1
         w = os.walk("descargas/")
         for dirpath, dirnames, filenames in w:
             if dirpath.find("csv-identificación-geográfica-censo-2017") < 0:
-                continue
+                name_level_1 = f"Identificación geográfica Censo 2017 - {filename}"
+            el
+
             for filename in filenames:
                 if filename.find(".csv") < 0:
                     continue
